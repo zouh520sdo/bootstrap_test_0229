@@ -75,3 +75,18 @@ div {
     font-family: bodoni-bold;
     src: url(../bodoni/BodoniFLF-Bold.ttf);
 }
+
+/*Change the padding design on mobile sites*/
+@media (max-width: 767.9999999999px) {
+    div {
+        padding: 20px;
+    }
+    
+    #logo {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    #logo h1{
+        font-size: 6em;
+    }
+}
