@@ -1,0 +1,77 @@
+body{
+    background-color: #ffffff !important;
+}
+
+.header {
+    font-family: myFont;
+    font-size: 4em;
+}
+
+.row {
+    padding-top: 40px;
+    padding-bottom: 15px;
+}
+.odd {
+    background-color: #e6e6e6;
+}
+.even {
+    background-color: #f2f2f2;
+}
+
+div {
+    padding-bottom: 25px;
+}
+
+#menu {
+    z-index: 100;
+}
+#menu div{
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+#menu ul{
+    text-align: right;
+}
+
+#logo {
+    font-family: art-brewery;
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 0px;
+}
+#logo h1{
+    font-size: 8em;
+}
+
+#portrait {
+    padding-top: 10px;   
+}
+#portrait #img p {
+    font-family: Arial;
+    font-size: 18px;
+    text-align: center;
+    color: #808080; 
+    padding-top: 5px;
+}
+
+#habbit h3 {
+    text-align: center;
+}
+#role h3 {
+    text-align: center;
+}
+
+@font-face {
+    font-family: myFont;
+    src: url(orangejuice.ttf);
+}
+
+@font-face {
+    font-family: art-brewery;
+    src: url(Art_Brewery.ttf);
+}
+
+@font-face {
+    font-family: bodoni-bold;
+    src: url(../bodoni/BodoniFLF-Bold.ttf);
+}
