@@ -1,19 +1,19 @@
-﻿$(document).ready(function () {
+$(document).ready(function () {
 
     $("#habbit #dota img").hover(function () {
-        $("#habbit #dota img").fadeTo("medium", 0.7);
+        $("#habbit #dota img").fadeTo("medium", 0.8);
     }, function () {
         $("#habbit #dota img").fadeTo("medium", 1.0);
     });
 
     $("#habbit #badminton img").hover(function () {
-        $("#habbit #badminton img").fadeTo("medium", 0.7);
+        $("#habbit #badminton img").fadeTo("medium", 0.8);
     }, function () {
         $("#habbit #badminton img").fadeTo("medium", 1.0);
     });
 
     $("#habbit #brainstorm img").hover(function () {
-        $("#habbit #brainstorm img").fadeTo("medium", 0.7);
+        $("#habbit #brainstorm img").fadeTo("medium", 0.8);
     }, function () {
         $("#habbit #brainstorm img").fadeTo("medium", 1.0);
     });
